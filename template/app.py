@@ -6,10 +6,8 @@ import re
 from nltk.stem.porter import PorterStemmer
 app = Flask(__name__)
 ps = PorterStemmer()
-# Load model and vectorizer
 model = pickle.load(open('../model2.pkl', 'rb'))
 tfidfvect = pickle.load(open('../tfidfvect2.pkl', 'rb'))
-# Build functionalities
 @app.route('/', methods=['GET'])
 def home():
     return render_template('index.html')
