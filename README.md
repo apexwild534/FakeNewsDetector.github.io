@@ -62,5 +62,8 @@ The model is a **Passive Aggressive Classifier**, trained using the following st
 2. **Flask** for building the web application.
 3. **NLTK** for natural language processing tools.
 
+## Explanation
+For Code Explanation refer to [Expalnation](explanation.md).
+
 ## License
 This project is licensed under the *MIT License*. See the [LICENSE](mit-license) file for more details.
